@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 700" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif">
+  <!-- Fondo mesa -->
+  <rect width="400" height="700" fill="#0F172A"/>
+
+  <!-- Sombra -->
+  <rect x="44" y="46" width="320" height="620" rx="32" fill="#000000" opacity="0.4"/>
+  <rect x="42" y="44" width="320" height="620" rx="32" fill="#000000" opacity="0.25"/>
+
+  <!-- Cuerpo -->
+  <rect x="40" y="40" width="320" height="620" rx="32" fill="#1F2937"/>
+  <rect x="40" y="40" width="320" height="620" rx="32" fill="none" stroke="#111827" stroke-width="2"/>
+
+  <!-- Bisel -->
+  <rect x="52" y="52" width="296" height="596" rx="20" fill="#000000"/>
+
+  <!-- Pantalla -->
+  <rect x="54" y="54" width="292" height="592" rx="18" fill="#F9FAFB"/>
+
+  <!-- Altavoz / cámara -->
+  <rect x="170" y="42" width="60" height="5" rx="2.5" fill="#374151"/>
+  <circle cx="245" cy="44.5" r="3.5" fill="#111827"/>
+  <circle cx="245" cy="44.5" r="1.5" fill="#1E3A8A"/>
+
+  <!-- Home indicator -->
+  <rect x="170" y="640" width="60" height="4" rx="2" fill="#4B5563"/>
+
+  <!-- Botones laterales -->
+  <rect x="38" y="170" width="2" height="30" rx="1" fill="#374151"/>
+  <rect x="38" y="210" width="2" height="30" rx="1" fill="#374151"/>
+  <rect x="360" y="190" width="2" height="50" rx="1" fill="#374151"/>
+
+  <!-- ===== STATUS BAR ===== -->
+  <text x="68" y="80" font-size="12" font-weight="700" fill="#1F2937">Martes 09:10</text>
+  <text x="245" y="80" text-anchor="end" font-size="11" font-weight="700" fill="#6B7280">110 pts</text>
+  <!-- señal -->
+  <rect x="260" y="72" width="3" height="6" fill="#1F2937"/>
+  <rect x="265" y="69" width="3" height="9" fill="#1F2937"/>
+  <rect x="270" y="66" width="3" height="12" fill="#1F2937"/>
+  <rect x="275" y="63" width="3" height="15" fill="#E5E7EB"/>
+  <!-- batería -->
+  <rect x="288" y="66" width="22" height="10" rx="2" fill="none" stroke="#1F2937" stroke-width="1.2"/>
+  <rect x="290" y="68" width="17" height="6" rx="1" fill="#10B981"/>
+  <rect x="310" y="69" width="2" height="4" fill="#1F2937"/>
+
+  <!-- ===== HEADER APP ===== -->
+  <!-- Botón back -->
+  <path d="M 78 108 L 70 116 L 78 124" stroke="#2563EB" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="86" y="120" font-size="12" font-weight="700" fill="#2563EB">Inicio</text>
+
+  <text x="200" y="138" text-anchor="middle" font-size="18" font-weight="700" fill="#1F2937">Seguridad</text>
+
+  <line x1="54" y1="152" x2="346" y2="152" stroke="#E5E7EB" stroke-width="1"/>
+
+  <!-- ===== SECCIÓN 1: CUENTA ===== -->
+  <text x="68" y="178" font-size="10" font-weight="700" fill="#6B7280">CUENTA</text>
+
+  <!-- Item: Verificación en dos pasos -->
+  <rect x="68" y="188" width="264" height="70" rx="10" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.5"/>
+
+  <rect x="80" y="204" width="40" height="40" rx="10" fill="#DBEAFE"/>
+  <path d="M 100 212 L 110 216 L 110 224 Q 110 232 100 236 Q 90 232 90 224 L 90 216 Z" fill="#2563EB"/>
+  <path d="M 95 224 L 99 228 L 106 220" stroke="#FFFFFF" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <text x="132" y="218" font-size="13" font-weight="700" fill="#1F2937">Verificación en dos pasos</text>
+  <text x="132" y="234" font-size="10" fill="#6B7280">Protege tu cuenta con un segundo</text>
+  <text x="132" y="248" font-size="10" fill="#6B7280">factor de seguridad</text>
+
+  <!-- Toggle OFF -->
+  <rect x="290" y="213" width="34" height="20" rx="10" fill="#D1D5DB"/>
+  <circle cx="300" cy="223" r="8" fill="#FFFFFF"/>
+
+  <!-- Beneficio visible -->
+  <rect x="80" y="252" width="240" height="18" rx="9" fill="#FEF3C7" opacity="0.6" style="display:none"/>
+  <!-- (no mostrado aún - se activa al tocar) -->
+
+  <!-- Item: Privacidad del perfil -->
+  <rect x="68" y="270" width="264" height="66" rx="10" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.5"/>
+
+  <rect x="80" y="286" width="40" height="40" rx="10" fill="#FED7AA"/>
+  <circle cx="100" cy="302" r="6" fill="#F97316"/>
+  <path d="M 88 320 Q 88 310 100 310 Q 112 310 112 320 Z" fill="#F97316"/>
+
+  <text x="132" y="302" font-size="13" font-weight="700" fill="#1F2937">Perfil privado</text>
+  <text x="132" y="318" font-size="10" fill="#6B7280">Solo tus contactos ven tus fotos</text>
+
+  <!-- Toggle OFF -->
+  <rect x="290" y="296" width="34" height="20" rx="10" fill="#D1D5DB"/>
+  <circle cx="300" cy="306" r="8" fill="#FFFFFF"/>
+
+  <!-- Item: Dispositivos conectados -->
+  <rect x="68" y="348" width="264" height="60" rx="10" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.5"/>
+
+  <rect x="80" y="360" width="40" height="40" rx="10" fill="#D1FAE5"/>
+  <rect x="90" y="370" width="20" height="14" rx="2" fill="none" stroke="#10B981" stroke-width="1.5"/>
+  <line x1="96" y1="388" x2="104" y2="388" stroke="#10B981" stroke-width="1.5"/>
+  <line x1="100" y1="384" x2="100" y2="388" stroke="#10B981" stroke-width="1.5"/>
+
+  <text x="132" y="382" font-size="13" font-weight="700" fill="#1F2937">Dispositivos</text>
+  <text x="132" y="398" font-size="10" fill="#6B7280">Revisa quién tiene tu cuenta</text>
+
+  <path d="M 310 372 L 318 378 L 310 384" stroke="#9CA3AF" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- ===== SECCIÓN 2: RECOMPENSA ===== -->
+  <text x="68" y="438" font-size="10" font-weight="700" fill="#6B7280">RECOMPENSA POR PROTEGERTE</text>
+
+  <rect x="68" y="448" width="264" height="80" rx="12" fill="#ECFDF5" stroke="#10B981" stroke-width="1.5"/>
+
+  <rect x="80" y="462" width="40" height="40" rx="10" fill="#10B981"/>
+  <path d="M 88 482 L 94 488 L 110 472" stroke="#FFFFFF" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <text x="132" y="478" font-size="13" font-weight="700" fill="#065F46">Activando 2FA y perfil privado</text>
+  <text x="132" y="494" font-size="11" fill="#065F46">ganas +15 de Privacidad</text>
+  <text x="132" y="510" font-size="10" fill="#047857">(una sola vez por partida)</text>
+
+  <!-- ===== NOTA INFERIOR ===== -->
+  <text x="200" y="560" text-anchor="middle" font-size="10" fill="#9CA3AF">Los cambios se guardan al instante</text>
+  <text x="200" y="576" text-anchor="middle" font-size="10" fill="#9CA3AF">Las barras suben en el HUD del chat</text>
+
+  <!-- Footer app -->
+  <text x="200" y="612" text-anchor="middle" font-size="10" fill="#9CA3AF">Ajustes de seguridad · Clic Seguro</text>
+</svg>

@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 700" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif">
+  <!-- Fondo mesa -->
+  <rect width="400" height="700" fill="#0F172A"/>
+
+  <!-- Sombra -->
+  <rect x="44" y="46" width="320" height="620" rx="32" fill="#000000" opacity="0.4"/>
+  <rect x="42" y="44" width="320" height="620" rx="32" fill="#000000" opacity="0.25"/>
+
+  <!-- Cuerpo -->
+  <rect x="40" y="40" width="320" height="620" rx="32" fill="#1F2937"/>
+  <rect x="40" y="40" width="320" height="620" rx="32" fill="none" stroke="#111827" stroke-width="2"/>
+
+  <!-- Bisel -->
+  <rect x="52" y="52" width="296" height="596" rx="20" fill="#000000"/>
+
+  <!-- Pantalla -->
+  <rect x="54" y="54" width="292" height="592" rx="18" fill="#FFFFFF"/>
+
+  <!-- Altavoz / cámara -->
+  <rect x="170" y="42" width="60" height="5" rx="2.5" fill="#374151"/>
+  <circle cx="245" cy="44.5" r="3.5" fill="#111827"/>
+  <circle cx="245" cy="44.5" r="1.5" fill="#1E3A8A"/>
+
+  <!-- Home indicator -->
+  <rect x="170" y="640" width="60" height="4" rx="2" fill="#4B5563"/>
+
+  <!-- Botones laterales -->
+  <rect x="38" y="170" width="2" height="30" rx="1" fill="#374151"/>
+  <rect x="38" y="210" width="2" height="30" rx="1" fill="#374151"/>
+  <rect x="360" y="190" width="2" height="50" rx="1" fill="#374151"/>
+
+  <!-- ===== STATUS BAR ===== -->
+  <text x="68" y="80" font-size="12" font-weight="700" fill="#1F2937">Miércoles 23:59</text>
+  <text x="310" y="80" text-anchor="end" font-size="11" font-weight="700" fill="#6B7280">195 pts</text>
+  <!-- señal -->
+  <rect x="256" y="72" width="3" height="6" fill="#1F2937"/>
+  <rect x="261" y="69" width="3" height="9" fill="#1F2937"/>
+  <rect x="266" y="66" width="3" height="12" fill="#1F2937"/>
+  <rect x="271" y="63" width="3" height="15" fill="#E5E7EB"/>
+  <!-- batería -->
+  <rect x="284" y="66" width="22" height="10" rx="2" fill="none" stroke="#1F2937" stroke-width="1.2"/>
+  <rect x="286" y="68" width="10" height="6" rx="1" fill="#F59E0B"/>
+  <rect x="306" y="69" width="2" height="4" fill="#1F2937"/>
+
+  <!-- ===== HEADER ===== -->
+  <!-- Círculo decorativo + día -->
+  <circle cx="200" cy="132" r="30" fill="#DBEAFE"/>
+  <text x="200" y="142" text-anchor="middle" font-size="28" font-weight="700" fill="#1E40AF">X</text>
+
+  <text x="200" y="185" text-anchor="middle" font-size="11" font-weight="700" fill="#6B7280">FIN DEL DÍA</text>
+  <text x="200" y="210" text-anchor="middle" font-size="20" font-weight="700" fill="#1F2937">Miércoles</text>
+
+  <!-- Puntos del día -->
+  <text x="200" y="232" text-anchor="middle" font-size="12" fill="#6B7280">Puntos del día: <tspan font-weight="700" fill="#10B981">185</tspan> de 240 posibles</text>
+
+  <line x1="68" y1="248" x2="332" y2="248" stroke="#E5E7EB" stroke-width="1"/>
+
+  <!-- ===== LISTA DE MENSAJES ===== -->
+  <text x="68" y="268" font-size="10" font-weight="700" fill="#6B7280">MENSAJES ATENDIDOS</text>
+
+  <!-- 1. Aviso universidad ✓ -->
+  <circle cx="78" cy="290" r="7" fill="#10B981"/>
+  <path d="M 74 290 L 77 293 L 83 286" stroke="#FFFFFF" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="94" y="288" font-size="11" fill="#1F2937">Aviso de la universidad</text>
+  <text x="94" y="302" font-size="9" fill="#6B7280">Confiar</text>
+  <text x="330" y="294" text-anchor="end" font-size="10" font-weight="700" fill="#10B981">+15</text>
+
+  <!-- 2. Sorteo falso ✓ -->
+  <circle cx="78" cy="320" r="7" fill="#10B981"/>
+  <path d="M 74 320 L 77 323 L 83 316" stroke="#FFFFFF" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="94" y="318" font-size="11" fill="#1F2937">Sorteo falso</text>
+  <text x="94" y="332" font-size="9" fill="#6B7280">Ignorar</text>
+  <text x="330" y="324" text-anchor="end" font-size="10" font-weight="700" fill="#10B981">+15</text>
+
+  <!-- 3. Soporte WhatsApp ✗ -->
+  <circle cx="78" cy="350" r="7" fill="#EF4444"/>
+  <line x1="74" y1="346" x2="82" y2="354" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round"/>
+  <line x1="82" y1="346" x2="74" y2="354" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round"/>
+  <text x="94" y="348" font-size="11" fill="#1F2937">Soporte WhatsApp</text>
+  <text x="94" y="362" font-size="9" fill="#6B7280">Confiar</text>
+  <text x="330" y="354" text-anchor="end" font-size="10" font-weight="700" fill="#EF4444">−40</text>
+
+  <!-- 4. Mensaje de Valentina ✓ -->
+  <circle cx="78" cy="380" r="7" fill="#10B981"/>
+  <path d="M 74 380 L 77 383 L 83 376" stroke="#FFFFFF" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="94" y="378" font-size="11" fill="#1F2937">Mensaje de Valentina</text>
+  <text x="94" y="392" font-size="9" fill="#6B7280">Verificar</text>
+  <text x="330" y="384" text-anchor="end" font-size="10" font-weight="700" fill="#10B981">+15</text>
+
+  <!-- 5. Llamada falso banco ✓ -->
+  <circle cx="78" cy="410" r="7" fill="#10B981"/>
+  <path d="M 74 410 L 77 413 L 83 406" stroke="#FFFFFF" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="94" y="408" font-size="11" fill="#1F2937">Llamada falso banco</text>
+  <text x="94" y="422" font-size="9" fill="#6B7280">Verificar</text>
+  <text x="330" y="414" text-anchor="end" font-size="10" font-weight="700" fill="#10B981">+20</text>
+
+  <!-- 6. Multa de tránsito ✗ -->
+  <circle cx="78" cy="440" r="7" fill="#EF4444"/>
+  <line x1="74" y1="436" x2="82" y2="444" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round"/>
+  <line x1="82" y1="436" x2="74" y2="444" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round"/>
+  <text x="94" y="438" font-size="11" fill="#1F2937">Multa de tránsito falsa</text>
+  <text x="94" y="452" font-size="9" fill="#6B7280">Confiar</text>
+  <text x="330" y="444" text-anchor="end" font-size="10" font-weight="700" fill="#EF4444">−100k</text>
+
+  <!-- 7. Mensaje de mamá ✓ -->
+  <circle cx="78" cy="470" r="7" fill="#10B981"/>
+  <path d="M 74 470 L 77 473 L 83 466" stroke="#FFFFFF" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="94" y="468" font-size="11" fill="#1F2937">Mensaje de mamá</text>
+  <text x="94" y="482" font-size="9" fill="#6B7280">Confiar</text>
+  <text x="330" y="474" text-anchor="end" font-size="10" font-weight="700" fill="#10B981">+15</text>
+
+  <!-- 8. Oferta Instagram ✓ -->
+  <circle cx="78" cy="500" r="7" fill="#10B981"/>
+  <path d="M 74 500 L 77 503 L 83 496" stroke="#FFFFFF" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="94" y="498" font-size="11" fill="#1F2937">Oferta en Instagram</text>
+  <text x="94" y="512" font-size="9" fill="#6B7280">Reportar</text>
+  <text x="330" y="504" text-anchor="end" font-size="10" font-weight="700" fill="#10B981">+25</text>
+
+  <line x1="68" y1="524" x2="332" y2="524" stroke="#E5E7EB" stroke-width="1"/>
+
+  <!-- ===== ESTADO FINAL ===== -->
+  <text x="68" y="544" font-size="10" font-weight="700" fill="#6B7280">ESTADO AL CERRAR EL DÍA</text>
+
+  <!-- Privacidad -->
+  <text x="68" y="565" font-size="10" fill="#1F2937">Privacidad</text>
+  <text x="330" y="565" text-anchor="end" font-size="10" font-weight="700" fill="#1F2937">60</text>
+  <rect x="140" y="558" width="160" height="6" rx="3" fill="#E5E7EB"/>
+  <rect x="140" y="558" width="96" height="6" rx="3" fill="#EF4444"/>
+
+  <!-- Saldo -->
+  <text x="68" y="583" font-size="10" fill="#1F2937">Saldo</text>
+  <text x="330" y="583" text-anchor="end" font-size="10" font-weight="700" fill="#1F2937">$400.000</text>
+  <rect x="140" y="576" width="160" height="6" rx="3" fill="#E5E7EB"/>
+  <rect x="140" y="576" width="128" height="6" rx="3" fill="#2563EB"/>
+
+  <!-- Reputación -->
+  <text x="68" y="601" font-size="10" fill="#1F2937">Reputación</text>
+  <text x="330" y="601" text-anchor="end" font-size="10" font-weight="700" fill="#1F2937">80</text>
+  <rect x="140" y="594" width="160" height="6" rx="3" fill="#E5E7EB"/>
+  <rect x="140" y="594" width="128" height="6" rx="3" fill="#10B981"/>
+
+  <!-- Insignia -->
+  <rect x="68" y="612" width="264" height="26" rx="13" fill="#FEF3C7" stroke="#F59E0B" stroke-width="1"/>
+  <circle cx="85" cy="625" r="8" fill="#F59E0B"/>
+  <text x="85" y="629" text-anchor="middle" font-size="10" font-weight="700" fill="#FFFFFF">!</text>
+  <text x="100" y="629" font-size="10" font-weight="700" fill="#92400E">Insignia del día: no (2 errores)</text>
+
+  <!-- ===== BOTONES ===== -->
+  <!-- Continuar al jueves (habilitado, primario) -->
+  <rect x="68" y="648" width="264" height="40" rx="8" fill="#2563EB"/>
+  <text x="200" y="673" text-anchor="middle" font-size="13" font-weight="700" fill="#FFFFFF">Continuar al jueves →</text>
+</svg>

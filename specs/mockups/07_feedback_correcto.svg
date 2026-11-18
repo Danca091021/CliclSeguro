@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 700" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif">
+  <!-- Fondo mesa -->
+  <rect width="400" height="700" fill="#0F172A"/>
+
+  <!-- Sombra -->
+  <rect x="44" y="46" width="320" height="620" rx="32" fill="#000000" opacity="0.4"/>
+  <rect x="42" y="44" width="320" height="620" rx="32" fill="#000000" opacity="0.25"/>
+
+  <!-- Cuerpo -->
+  <rect x="40" y="40" width="320" height="620" rx="32" fill="#1F2937"/>
+  <rect x="40" y="40" width="320" height="620" rx="32" fill="none" stroke="#111827" stroke-width="2"/>
+
+  <!-- Bisel -->
+  <rect x="52" y="52" width="296" height="596" rx="20" fill="#000000"/>
+
+  <!-- Pantalla -->
+  <rect x="54" y="54" width="292" height="592" rx="18" fill="#FFFFFF"/>
+
+  <!-- Altavoz / cámara -->
+  <rect x="170" y="42" width="60" height="5" rx="2.5" fill="#374151"/>
+  <circle cx="245" cy="44.5" r="3.5" fill="#111827"/>
+  <circle cx="245" cy="44.5" r="1.5" fill="#1E3A8A"/>
+
+  <!-- Home indicator -->
+  <rect x="170" y="640" width="60" height="4" rx="2" fill="#4B5563"/>
+
+  <!-- Botones laterales -->
+  <rect x="38" y="170" width="2" height="30" rx="1" fill="#374151"/>
+  <rect x="38" y="210" width="2" height="30" rx="1" fill="#374151"/>
+  <rect x="360" y="190" width="2" height="50" rx="1" fill="#374151"/>
+
+  <!-- ===== CONTENIDO FONDO (atenuado) ===== -->
+  <g opacity="0.3">
+    <text x="68" y="80" font-size="12" font-weight="700" fill="#1F2937">Miércoles 10:43</text>
+    <text x="310" y="80" text-anchor="end" font-size="11" font-weight="700" fill="#6B7280">45 pts</text>
+
+    <text x="68" y="115" font-size="11" fill="#1F2937">Privacidad 100</text>
+    <rect x="180" y="107" width="160" height="8" rx="4" fill="#10B981"/>
+
+    <text x="68" y="135" font-size="11" fill="#1F2937">Saldo $500.000</text>
+    <rect x="180" y="127" width="160" height="8" rx="4" fill="#2563EB"/>
+
+    <text x="68" y="155" font-size="11" fill="#1F2937">Reputación 100</text>
+    <rect x="180" y="147" width="160" height="8" rx="4" fill="#10B981"/>
+
+    <circle cx="78" cy="198" r="14" fill="#25D366"/>
+    <text x="100" y="194" font-size="13" font-weight="700" fill="#1F2937">Soporte WhatsApp</text>
+    <text x="100" y="210" font-size="10" fill="#6B7280">+1 555 013 2290</text>
+
+    <rect x="68" y="240" width="264" height="80" rx="14" fill="#F3F4F6"/>
+    <text x="82" y="262" font-size="12" fill="#1F2937">Detectamos un inicio de sesión</text>
+    <text x="82" y="280" font-size="12" fill="#1F2937">desde otro dispositivo. Envía el</text>
+    <text x="82" y="298" font-size="12" fill="#1F2937">código de 6 dígitos.</text>
+  </g>
+
+  <!-- Overlay -->
+  <rect x="54" y="54" width="292" height="592" rx="18" fill="#000000" opacity="0.5"/>
+
+  <!-- ===== TARJETA FEEDBACK (verde) ===== -->
+  <rect x="65" y="88" width="270" height="522" rx="16" fill="#FFFFFF"/>
+  <rect x="65" y="88" width="270" height="6" rx="3" fill="#10B981"/>
+
+  <!-- Header verde con check -->
+  <circle cx="200" cy="150" r="30" fill="#D1FAE5"/>
+  <circle cx="200" cy="150" r="20" fill="#10B981"/>
+  <path d="M 191 150 L 197 156 L 210 143" stroke="#FFFFFF" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Título -->
+  <text x="200" y="205" text-anchor="middle" font-size="16" font-weight="700" fill="#065F46">¡Bien hecho!</text>
+
+  <!-- Acción realizada -->
+  <rect x="85" y="222" width="230" height="42" rx="10" fill="#F0FDF4" stroke="#86EFAC" stroke-width="1.5"/>
+  <text x="200" y="240" text-anchor="middle" font-size="10" font-weight="700" fill="#047857">TU ACCIÓN</text>
+  <text x="200" y="257" text-anchor="middle" font-size="14" font-weight="700" fill="#065F46">Reportaste la amenaza</text>
+
+  <!-- Puntos ganados -->
+  <text x="85" y="290" font-size="11" fill="#6B7280">PUNTOS GANADOS</text>
+
+  <!-- Fila +10 base -->
+  <text x="95" y="312" font-size="12" fill="#1F2937">Decisión correcta</text>
+  <text x="305" y="312" text-anchor="end" font-size="13" font-weight="700" fill="#10B981">+10</text>
+
+  <!-- Fila +5 herramienta -->
+  <text x="95" y="332" font-size="12" fill="#1F2937">Inspeccionaste antes</text>
+  <text x="305" y="332" text-anchor="end" font-size="13" font-weight="700" fill="#10B981">+5</text>
+
+  <!-- Fila +10 reportar -->
+  <text x="95" y="352" font-size="12" fill="#1F2937">Reportaste el fraude</text>
+  <text x="305" y="352" text-anchor="end" font-size="13" font-weight="700" fill="#10B981">+10</text>
+
+  <!-- Total con separador -->
+  <line x1="85" y1="365" x2="315" y2="365" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="95" y="387" font-size="13" font-weight="700" fill="#065F46">Total</text>
+  <text x="305" y="387" text-anchor="end" font-size="18" font-weight="700" fill="#10B981">+25 pts</text>
+
+  <line x1="85" y1="400" x2="315" y2="400" stroke="#E5E7EB" stroke-width="1"/>
+
+  <!-- Consejo desbloqueado -->
+  <text x="85" y="422" font-size="10" font-weight="700" fill="#6B7280">CONSEJO DESBLOQUEADO</text>
+
+  <rect x="85" y="430" width="230" height="90" rx="10" fill="#FFFBEB" stroke="#FBBF24" stroke-width="1.5"/>
+
+  <!-- Ícono bombilla -->
+  <circle cx="102" cy="450" r="9" fill="#FBBF24"/>
+  <path d="M 98 450 Q 98 444 102 444 Q 106 444 106 450 Q 106 454 102 456 L 102 458 L 100 458 L 100 456 Q 98 454 98 450 Z" fill="#FFFFFF"/>
+  <rect x="100" y="459" width="4" height="2" fill="#FFFFFF"/>
+
+  <text x="118" y="447" font-size="11" font-weight="700" fill="#92400E">El código OTP nunca se comparte</text>
+  <text x="118" y="462" font-size="10" fill="#78350F">Ninguna empresa legítima te pedirá</text>
+  <text x="118" y="476" font-size="10" fill="#78350F">el código de 6 dígitos. Si alguien</text>
+  <text x="118" y="490" font-size="10" fill="#78350F">lo hace, es una estafa.</text>
+  <text x="118" y="507" font-size="9" fill="#B45309" font-style="italic">→ Guardado en "Aprendizajes"</text>
+
+  <!-- Botón continuar -->
+  <rect x="85" y="540" width="230" height="48" rx="8" fill="#10B981"/>
+  <text x="200" y="569" text-anchor="middle" font-size="15" font-weight="700" fill="#FFFFFF">Siguiente</text>
+
+  <!-- Nota TTS -->
+  <text x="200" y="605" text-anchor="middle" font-size="9" fill="#9CA3AF" font-style="italic">🔊 El consejo se está leyendo en voz alta</text>
+</svg>

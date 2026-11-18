@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 700" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif">
+  <!-- Fondo mesa -->
+  <rect width="400" height="700" fill="#0F172A"/>
+
+  <!-- Sombra -->
+  <rect x="44" y="46" width="320" height="620" rx="32" fill="#000000" opacity="0.4"/>
+  <rect x="42" y="44" width="320" height="620" rx="32" fill="#000000" opacity="0.25"/>
+
+  <!-- Cuerpo -->
+  <rect x="40" y="40" width="320" height="620" rx="32" fill="#1F2937"/>
+  <rect x="40" y="40" width="320" height="620" rx="32" fill="none" stroke="#111827" stroke-width="2"/>
+
+  <!-- Bisel -->
+  <rect x="52" y="52" width="296" height="596" rx="20" fill="#000000"/>
+
+  <!-- Pantalla -->
+  <rect x="54" y="54" width="292" height="592" rx="18" fill="#FFFFFF"/>
+
+  <!-- Altavoz / cámara -->
+  <rect x="170" y="42" width="60" height="5" rx="2.5" fill="#374151"/>
+  <circle cx="245" cy="44.5" r="3.5" fill="#111827"/>
+  <circle cx="245" cy="44.5" r="1.5" fill="#1E3A8A"/>
+
+  <!-- Home indicator -->
+  <rect x="170" y="640" width="60" height="4" rx="2" fill="#4B5563"/>
+
+  <!-- Botones laterales -->
+  <rect x="38" y="170" width="2" height="30" rx="1" fill="#374151"/>
+  <rect x="38" y="210" width="2" height="30" rx="1" fill="#374151"/>
+  <rect x="360" y="190" width="2" height="50" rx="1" fill="#374151"/>
+
+  <!-- ===== CONTENIDO FONDO (atenuado) ===== -->
+  <g opacity="0.35">
+    <text x="68" y="80" font-size="12" font-weight="700" fill="#1F2937">Jueves 14:22</text>
+    <text x="310" y="80" text-anchor="end" font-size="11" font-weight="700" fill="#6B7280">180 pts</text>
+
+    <text x="68" y="115" font-size="11" fill="#1F2937">Privacidad 85</text>
+    <rect x="180" y="107" width="160" height="8" rx="4" fill="#10B981"/>
+
+    <text x="68" y="135" font-size="11" fill="#1F2937">Saldo $400.000</text>
+    <rect x="180" y="127" width="160" height="8" rx="4" fill="#2563EB"/>
+
+    <text x="68" y="155" font-size="11" fill="#1F2937">Reputación 100</text>
+    <rect x="180" y="147" width="160" height="8" rx="4" fill="#10B981"/>
+
+    <!-- Remitente banco falso -->
+    <circle cx="78" cy="198" r="14" fill="#2563EB"/>
+    <text x="78" y="204" text-anchor="middle" font-size="14" font-weight="700" fill="#FFFFFF">$</text>
+    <text x="100" y="194" font-size="13" font-weight="700" fill="#1F2937">Banco Nacional</text>
+    <text x="100" y="210" font-size="10" fill="#6B7280">+57 300 555 0011</text>
+
+    <!-- Burbuja con enlace visible -->
+    <rect x="68" y="240" width="264" height="90" rx="14" fill="#F3F4F6"/>
+    <text x="82" y="262" font-size="12" fill="#1F2937">Tu cuenta será bloqueada.</text>
+    <text x="82" y="279" font-size="12" fill="#1F2937">Verifica aquí:</text>
+    <text x="82" y="300" font-size="12" fill="#2563EB" text-decoration="underline">banc0lombia.com/verif</text>
+  </g>
+
+  <!-- Overlay -->
+  <rect x="54" y="54" width="292" height="592" rx="18" fill="#000000" opacity="0.55"/>
+
+  <!-- ===== MODAL ===== -->
+  <rect x="65" y="100" width="270" height="510" rx="16" fill="#FFFFFF"/>
+
+  <!-- Header modal -->
+  <text x="85" y="132" font-size="16" font-weight="700" fill="#1F2937">Análisis del enlace</text>
+  <circle cx="313" cy="126" r="12" fill="#F3F4F6"/>
+  <line x1="308" y1="121" x2="318" y2="131" stroke="#6B7280" stroke-width="2" stroke-linecap="round"/>
+  <line x1="318" y1="121" x2="308" y2="131" stroke="#6B7280" stroke-width="2" stroke-linecap="round"/>
+
+  <line x1="85" y1="152" x2="315" y2="152" stroke="#E5E7EB" stroke-width="1"/>
+
+  <!-- Lupa grande -->
+  <circle cx="200" cy="200" r="32" fill="#DBEAFE"/>
+  <circle cx="196" cy="196" r="14" fill="none" stroke="#2563EB" stroke-width="3"/>
+  <line x1="206" y1="206" x2="216" y2="216" stroke="#2563EB" stroke-width="3" stroke-linecap="round"/>
+
+  <text x="200" y="258" text-anchor="middle" font-size="12" fill="#6B7280">Enlace del mensaje:</text>
+
+  <!-- URL descompuesta con caracteres resaltados -->
+  <rect x="80" y="272" width="240" height="42" rx="8" fill="#FEF2F2" stroke="#FCA5A5" stroke-width="1.5"/>
+  <text x="200" y="298" text-anchor="middle" font-size="13" font-weight="700" fill="#1F2937">banc<tspan fill="#EF4444" text-decoration="underline">0</tspan>lombia.com</text>
+
+  <!-- Flecha señalando -->
+  <line x1="200" y1="314" x2="200" y2="326" stroke="#EF4444" stroke-width="1.5" stroke-dasharray="3,3"/>
+  <text x="200" y="342" text-anchor="middle" font-size="10" font-weight="700" fill="#EF4444">Carácter sospechoso</text>
+
+  <line x1="85" y1="360" x2="315" y2="360" stroke="#E5E7EB" stroke-width="1"/>
+
+  <!-- Comparación con oficial -->
+  <text x="88" y="382" font-size="11" font-weight="700" fill="#6B7280">SITIO OFICIAL</text>
+  <rect x="85" y="390" width="230" height="36" rx="8" fill="#F0FDF4" stroke="#86EFAC" stroke-width="1.5"/>
+  <circle cx="100" cy="408" r="8" fill="#10B981"/>
+  <path d="M 96 408 L 99 411 L 105 404" stroke="#FFFFFF" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="115" y="413" font-size="13" font-weight="700" fill="#065F46">banco<tspan fill="#10B981">l</tspan>ombia.com</text>
+
+  <text x="88" y="448" font-size="11" font-weight="700" fill="#6B7280">ESTE MENSAJE USA</text>
+  <rect x="85" y="456" width="230" height="36" rx="8" fill="#FEF2F2" stroke="#FCA5A5" stroke-width="1.5"/>
+  <circle cx="100" cy="474" r="8" fill="#EF4444"/>
+  <line x1="96" y1="470" x2="104" y2="478" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+  <line x1="104" y1="470" x2="96" y2="478" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+  <text x="115" y="479" font-size="13" font-weight="700" fill="#7F1D1D">banc<tspan fill="#EF4444" text-decoration="underline">0</tspan>lombia.com</text>
+
+  <!-- Diferencia -->
+  <text x="200" y="510" text-anchor="middle" font-size="10" fill="#EF4444" font-weight="700">DIFERENCIA: la letra "o" fue reemplazada por "0"</text>
+
+  <line x1="85" y1="528" x2="315" y2="528" stroke="#E5E7EB" stroke-width="1"/>
+
+  <!-- PISTA -->
+  <rect x="85" y="538" width="230" height="34" rx="8" fill="#FEF3C7" stroke="#F59E0B" stroke-width="1.5"/>
+  <polygon points="100,551 108,565 92,565" fill="#F59E0B"/>
+  <text x="100" y="562" text-anchor="middle" font-size="9" font-weight="700" fill="#FFFFFF">!</text>
+  <text x="118" y="558" font-size="10" font-weight="700" fill="#92400E">Ataque de typosquatting</text>
+
+  <!-- Botón Entendido -->
+  <rect x="85" y="580" width="230" height="40" rx="8" fill="#2563EB"/>
+  <text x="200" y="605" text-anchor="middle" font-size="14" font-weight="700" fill="#FFFFFF">Entendido</text>
+</svg>
